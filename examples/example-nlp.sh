@@ -1,0 +1,1 @@
+hadoop jar /home/damiano/data/mavuno/target/hadoop-deploy/mavuno-hdeploy.jar edu.isi.mavuno.app.nlp.ProcessStanfordNLP -CorpusPath=file:///home/damiano/data/mavuno/data/corpus/ -CorpusClass=edu.isi.mavuno.input.TextFileInputFormat -OutputPath=file:///home/damiano/data/mavuno/data/wizard-of-oz-stanford -TextOutputFormat=true
